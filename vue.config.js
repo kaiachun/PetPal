@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: "/PetPal/",
+  publicPath: "/PetPal/dist/",
 };
