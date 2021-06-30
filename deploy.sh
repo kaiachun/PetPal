@@ -17,6 +17,6 @@ git add -A
 git commit -m 'VueCLI 切換頁面'
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:kaiachun/PetPal.git master:main
+git push -f git@github.com:kaiachun/PetPal.git master:gh-pages
 
 cd -
