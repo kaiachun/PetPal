@@ -3,7 +3,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 const routes = [
   {
     path: "/",
-    component: import("../views/Front.vue"),
+    component: () => import("../views/Front.vue"),
     // 因此處為巢狀路由，要加入子路由
     children: [
       {
