@@ -20,6 +20,10 @@
               >產品列表</router-link
             >
           </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/index">
+            回到前台</router-link>
+          </li>
         </ul>
       </div>
     </div>

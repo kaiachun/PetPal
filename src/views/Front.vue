@@ -1,6 +1,6 @@
 <template>
   <!-- 加入導覽列 -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">導覽列</a>
       <button

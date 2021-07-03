@@ -14,7 +14,7 @@ npm run build
 
 git init
 git add -A
-git commit -m 'VueCLI 切換頁面'
+git commit -m 'VueCLI 前台產品頁'
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:kaiachun/PetPal.git master:gh-pages
