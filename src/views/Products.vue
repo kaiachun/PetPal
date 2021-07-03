@@ -4,7 +4,7 @@
       <thead>
         <tr>
           <th>圖片</th>
-          <th>商品名稱</th>
+          <th>名稱</th>
           <th>價格</th>
           <th></th>
         </tr>
@@ -70,6 +70,7 @@ export default {
     pagination,
   },
   mounted() {
+    // 取得所有產品
     this.getProducts();
   },
   methods: {
@@ -87,6 +88,7 @@ export default {
       });
     },
     getProduct(item) {
+      // 取得單一產品
       console.log(item);
       this.$router.push(`/product/${item.id}`);
     },

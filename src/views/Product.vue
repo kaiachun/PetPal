@@ -9,8 +9,8 @@
         <h2>
           <div class="badge bg-info rounded-pill">{{ product.title }}</div>
         </h2>
-        <h3 class="">商品描述：{{ product.description }}</h3>
-        <h3 class="">商品內容：{{ product.content }}</h3>
+        <h3 class="">描述：{{ product.description }}</h3>
+        <h3 class="">內容：{{ product.content }}</h3>
         <h4 class="text-secondary">
           <del>原價 {{ product.origin_price }} 元</del>
         </h4>
